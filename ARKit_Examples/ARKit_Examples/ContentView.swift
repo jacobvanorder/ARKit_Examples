@@ -18,7 +18,8 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            SceneKitView()
+            SceneKitRepresentableView()
+                .ignoresSafeArea(edges: [.top, .leading, .trailing])
                 .tabItem {
                     Label("SceneKit", systemImage: "cube.transparent")
                 }
@@ -35,18 +36,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-    }
-}
-
-struct SceneKitView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "cube.transparent")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("SceneKit")
-        }
-        .padding()
     }
 }
 
