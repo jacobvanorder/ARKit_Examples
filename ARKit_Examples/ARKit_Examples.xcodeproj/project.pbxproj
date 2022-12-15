@@ -13,6 +13,8 @@
 		168862CD294548BB001F435B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168862CC294548BB001F435B /* Preview Assets.xcassets */; };
 		168862D429462344001F435B /* SceneKitRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168862D329462344001F435B /* SceneKitRepresentableView.swift */; };
 		168862D629462945001F435B /* teapot.obj in Resources */ = {isa = PBXBuildFile; fileRef = 168862D529462945001F435B /* teapot.obj */; };
+		168862D8294672CB001F435B /* RealityKitRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168862D7294672CB001F435B /* RealityKitRepresentableView.swift */; };
+		168862DA29467621001F435B /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 168862D929467621001F435B /* teapot.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		168862CC294548BB001F435B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		168862D329462344001F435B /* SceneKitRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitRepresentableView.swift; sourceTree = "<group>"; };
 		168862D529462945001F435B /* teapot.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teapot.obj; sourceTree = "<group>"; };
+		168862D7294672CB001F435B /* RealityKitRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitRepresentableView.swift; sourceTree = "<group>"; };
+		168862D929467621001F435B /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 				168862C5294548BA001F435B /* ARKit_ExamplesApp.swift */,
 				168862C7294548BA001F435B /* ContentView.swift */,
 				168862D329462344001F435B /* SceneKitRepresentableView.swift */,
+				168862D7294672CB001F435B /* RealityKitRepresentableView.swift */,
 				168862D529462945001F435B /* teapot.obj */,
+				168862D929467621001F435B /* teapot.usdz */,
 				168862C9294548BB001F435B /* Assets.xcassets */,
 				168862CB294548BB001F435B /* Preview Content */,
 			);
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168862DA29467621001F435B /* teapot.usdz in Resources */,
 				168862CD294548BB001F435B /* Preview Assets.xcassets in Resources */,
 				168862CA294548BB001F435B /* Assets.xcassets in Resources */,
 				168862D629462945001F435B /* teapot.obj in Resources */,
@@ -147,6 +154,7 @@
 				168862C8294548BA001F435B /* ContentView.swift in Sources */,
 				168862D429462344001F435B /* SceneKitRepresentableView.swift in Sources */,
 				168862C6294548BA001F435B /* ARKit_ExamplesApp.swift in Sources */,
+				168862D8294672CB001F435B /* RealityKitRepresentableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

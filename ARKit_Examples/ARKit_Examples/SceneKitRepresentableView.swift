@@ -19,7 +19,6 @@ struct SceneKitRepresentableView: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: SceneKitViewController, context: Context) {
         
     }
-
 }
 
 struct SceneKitRepresentableView_Previews: PreviewProvider {
@@ -68,8 +67,7 @@ class SceneKitViewController: UIViewController {
     func addLight() {
         let spotLight = SCNNode()
         spotLight.light = SCNLight()
-        spotLight.scale = SCNVector3(1,1,1)
-        spotLight.light?.intensity = 1000
+        spotLight.scale = SCNVector3(1, 1, 1)
         spotLight.castsShadow = true
         spotLight.position = SCNVector3Zero
         spotLight.light?.type = SCNLight.LightType.directional

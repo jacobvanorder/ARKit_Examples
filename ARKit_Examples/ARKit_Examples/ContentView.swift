@@ -24,7 +24,8 @@ struct ContentView: View {
                     Label("SceneKit", systemImage: "cube.transparent")
                 }
                 .tag(Tab.SceneKit)
-            RealityKitView()
+            RealityKitRepresentableView()
+                .ignoresSafeArea(edges: [.top, .leading, .trailing])
                 .tabItem {
                     Label("RealityKit", systemImage: "cube")
                 }
@@ -36,18 +37,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-    }
-}
-
-struct RealityKitView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "cube")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("RealityKit")
-        }
-
-        .padding()
     }
 }
